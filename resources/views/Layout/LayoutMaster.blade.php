@@ -12,9 +12,11 @@
 
 <body>
     @include('layout.LayoutHeader')
+
     <section>
         @yield('body')
     </section>
+    
     @include('layout.LayoutFooter')
 </body>
 
